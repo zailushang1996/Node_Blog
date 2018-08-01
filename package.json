@@ -1,0 +1,34 @@
+{
+  "name": "node_blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "assert": "^1.4.1",
+    "body-parser": "^1.15.2",
+    "crypto": "0.0.3",
+    "ejs": "^2.5.5",
+    "express": "^4.14.0",
+    "express-session": "^1.14.2",
+    "formidable": "^1.0.17",
+    "gm": "^1.23.0",
+    "moment": "^2.17.1",
+    "mongodb": "^2.2.16",
+    "morgan": "^1.5.3",
+    "serve-favicon": "^2.2.1",
+    "ueditor": "^1.1.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zailushang1996/Node_Blog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zailushang1996/Node_Blog/issues"
+  },
+  "homepage": "https://github.com/zailushang1996/Node_Blog#readme"
+}
