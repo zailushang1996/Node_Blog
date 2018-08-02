@@ -24,5 +24,16 @@ app.set("view engine","ejs");
 //首页
 app.get("/",router.showIndex);
 
+
+//取得文章
+app.post("/getArticle", router.getArticle);
+
+
+//注册页面
+app.get("/register", router.showRegister);
+app.post("/doRegister",router.doRegister);
+
+//取得总页数
+app.post("/getAllAmount", router.getAllAmount);
 console.log("Server running");
 app.listen(3000);
