@@ -24,6 +24,10 @@ app.set("view engine","ejs");
 //首页
 app.get("/",router.showIndex);
 
+//编写页面
+app.get("/recording", router.showRecording);
+//执行保存
+app.post("/doRecording", router.doRecording);
 
 //取得文章
 app.post("/getArticle", router.getArticle);
@@ -33,6 +37,9 @@ app.post("/getArticle", router.getArticle);
 app.get("/register", router.showRegister);
 app.post("/doRegister",router.doRegister);
 
+//登录界面
+app.get("/login", router.showLogin);
+app.post("/doLogin", router.doLogin);
 //取得总页数
 app.post("/getAllAmount", router.getAllAmount);
 console.log("Server running");
