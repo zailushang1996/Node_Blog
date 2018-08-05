@@ -11,7 +11,6 @@ function _connectDB(callback) {
             callback(err, null);
             return;
         }
-        console.log("connect mongo succeed");
         callback(err, db);
     });
 
